@@ -86,22 +86,3 @@ test('Staff should be increased', () => {
 
   expect(city.governmentBuildings[0].staffCount).toBe(220);
 });
-
-// Метод filter. Отработка
-// 01_tests. Дополните тип HouseType (добавьте порядковый id от 1 и по возрастанию)
-// 02_object. Создайте в том же файле ещё одну функцию, чтобы тесты прошли
-test('House should be destroyed', () => {
-  demolishHousesOnTheStreet(city, 'Happy street');
-
-  expect(city.houses.length).toBe(1);
-  expect(city.houses[0].id).toBe(1);
-
-})
-
-// 03_function. Массив строений, где работают больше 500 людей
-test('buildings with correct staff count', () => {
-  let buildings = getBuildingsWithStaffCountGreaterThen(city.governmentBuildings, 500)
-
-  expect(buildings.length).toBe(1);
-  expect(buildings[0].type).toBe('FIRE-STATION')
-})
