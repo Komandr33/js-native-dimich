@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {sum} from "./hello-test/01/01";
+import {sum} from "./hello-test/01_tests/01";
 
 
 const root = ReactDOM.createRoot(

@@ -45,8 +45,8 @@ beforeEach(() => {
     }
 })
 
-// 01. создайте тип CityType
-// 02. заполните объект city, чтобы тесты ниже прошли
+// 01_tests. создайте тип CityType
+// 02_object. заполните объект city, чтобы тесты ниже прошли
 test("test city should contains 3 houses", () => {
     expect(city.houses.length).toBe(3);
 
@@ -66,8 +66,8 @@ test("test city should contains 3 houses", () => {
     expect(city.houses[2].address.street.title).toBe("Happy street");
 })
 
-// 01. дополните тип GovernmentBuildingType
-// 02. заполните объект city, чтобы тесты ниже прошли
+// 01_tests. дополните тип GovernmentBuildingType
+// 02_object. заполните объект city, чтобы тесты ниже прошли
 test("test city should contains hospital and fire station", () => {
     expect(city.governmentBuildings.length).toBe(2);
 

@@ -1,4 +1,4 @@
-import {studentType} from '../02/02';
+import {studentType} from '../02_object/02';
 import {addSkill} from './03';
 
 let student: studentType;
